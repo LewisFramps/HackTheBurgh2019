@@ -1,6 +1,6 @@
 [{
     "action": "talk",
-    "text": "Please wait while we connect you to Watson"
+    "text": "Testing Testing Testing. Hack the Burgh 2019!"
 },
 {
     "action": "connect",
