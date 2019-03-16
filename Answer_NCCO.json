@@ -6,7 +6,7 @@
     "action": "connect",
     "endpoint": [{
         "type": "websocket",
-        "uri" : "ws://example.com/socket",
+        "uri" : "https://raw.githubusercontent.com/LewisFramps/HackTheBurgh2019/master/WatsonSpeech.py",
         "content-type": "audio/l16;rate=16000", 
         "headers": {}
     }]
