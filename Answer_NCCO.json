@@ -1,0 +1,13 @@
+[{
+    "action": "talk",
+    "text": "Testing Testing Testing. Hack the Burgh 2019!"
+},
+{
+    "action": "connect",
+    "endpoint": [{
+        "type": "websocket",
+        "uri" : "ws://example.com/socket",
+        "content-type": "audio/l16;rate=16000", 
+        "headers": {}
+    }]
+}]
