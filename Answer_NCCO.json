@@ -1,13 +1,7 @@
-[{
-    "action": "talk",
-    "text": "Testing Testing Testing. Hack the Burgh 2019!"
-},
-{
-    "action": "connect",
-    "endpoint": [{
-        "type": "websocket",
-        "uri" : "WatsonSpeech.py",
-        "content-type": "audio/l16;rate=16000", 
-        "headers": {}
-    }]
-}]
+[
+  {
+    "action": "conversation",
+    "name": "nexmo-conference-standard",
+    "record": "true"
+  }
+]
