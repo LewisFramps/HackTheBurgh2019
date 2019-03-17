@@ -1,4 +1,0 @@
-# Function dependencies, for example:
-# package>=version
-flask==1.0.2
-
