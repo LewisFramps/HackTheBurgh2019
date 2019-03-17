@@ -4,19 +4,23 @@ import TextToSignsService from '../api/TextToSignsService';
 
 export default class CallContainer extends Component {
     state = {
-        response: undefined
+        response: []
     }
 
-    async handleSubmitForm(e) {
+    handleSubmitForm = async (e) => {
         e.preventDefault();
         console.log(e.target.text.value);
         const response = await TextToSignsService.postTextToSigns(e.target.text.value);
-        this.setState({response: response});
+        console.log(response);
+        this.setState({response: response.data});
     }
 
     render() {
+        const images = this.state.response.map((item) =>
+                                        <img src={item}></img>
+                                    );
         const result = <div className="result">
-
+                            {images}
                         </div>;
         return (
             <div className="call-container">
